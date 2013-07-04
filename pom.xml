@@ -14,7 +14,9 @@
     <groupId>org.hudsonci.plugins</groupId>
     <artifactId>soft-restart</artifactId>
     <version>1.0-h-1-SNAPSHOT</version>
-    <description>Soft Restart plugin restarts Hudson within the same JVM</description>
+    <description>Soft Restart plugin restarts Hudson within the same JVM. To use
+    this lifecycle, you must define the Java system property
+    hudson.lifecycle=org.hudsonci.lifecycle.SoftRestart</description>
 
     <packaging>hpi</packaging>
 
